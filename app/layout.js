@@ -1,11 +1,9 @@
 import "./globals.css";
-import FullBg from '@/Components/FullBg'
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-[#071013] text-white">
       <body >
-        <FullBg/>
         {children}
       </body>
     </html>
