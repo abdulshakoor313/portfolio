@@ -1,19 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
 
-const page = () => {
+const Page = () => {
   return (
-    <>
+   <>
    <Link href={"https://books-app-beige.vercel.app/"}>Projects</Link>
    </>
-    
   )
 }
 
-export default page
-
-
-
-
-
-
+export default Page
