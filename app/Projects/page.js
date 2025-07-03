@@ -18,7 +18,7 @@ const page = () => {
       <p className='text-sm text-gray-300'>
         It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout...
       </p>
-      <Link href='https://portfolio-ten-kappa-7qp0rekt97.vercel.app/' passHref>
+      <Link href='https://portfolio.abdul-shakoor.vercel.app/' passHref>
         <button className='mt-4 px-4 py-2 bg-amber-500 text-white rounded hover:bg-amber-600'>
           Live Demo
         </button>
