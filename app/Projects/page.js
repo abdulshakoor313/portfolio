@@ -10,7 +10,7 @@ const page = () => {
     {/* Portfolio Card */}
     <div className='flex-1 max-w-lg rounded-lg shadow-xl text-center p-4 bg-gray-900'>
             <img
-        src='/images/elctrician.png'
+        src='/images/portfolio.png'
         alt='Electric Serves'
         className='w-full h-auto rounded-t-lg mb-4'
       />
@@ -28,7 +28,7 @@ const page = () => {
     {/* Book Author Card */}
     <div className='flex-1 max-w-lg rounded-lg shadow-xl text-center p-4 bg-gray-900'>
             <img
-        src='/images/elctrician.png'
+        src='/images/books.png'
         alt='Electric Serves'
         className='w-full h-auto rounded-t-lg mb-4'
       /> 

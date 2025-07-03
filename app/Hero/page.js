@@ -11,12 +11,9 @@ const page = () => {
       <div className="flex flex-col lg:flex-row items-start lg:items-center gap-6 border border-gray-100 p-4 w-full max-w-5xl shadow-neutral-100">
         <div>
             <div><h1 className='font-bold text-4xl'>Abdul Shakoor</h1></div>
-            <h2 className="text-lg sm:text-xl text-gray-100">Web Developer</h2>
+            <h2 className="text-lg sm:text-xl text-gray-100">Front-end Web Developer</h2>
 
-            <p className='text-justify p-4 text-sm sm:text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p className='text-justify p-4 text-sm sm:text-base'>Detail-oriented web developer with strong skills in web development and UI/UX design. Passionate about leveraging AI to improve user experience. Seeking freelance or full-time opportunities web projects.</p>
         </div>
         <div className="w-full grid grid-cols-2 gap-1">
 <div className="border p-4 flex items-center justify-center h-40">
