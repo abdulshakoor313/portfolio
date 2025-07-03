@@ -1,6 +1,8 @@
 "use client"
 import React from 'react'
 import Exp from 'Components/Exp'
+import Skills from '@/Components/Skills'
+import Slide from '@/Components/Slide'
 
 
 const page = () => {
@@ -31,7 +33,9 @@ const page = () => {
 </div>
       </div>
     </div>
+    <Skills/>
     <Exp/>
+    <Slide/>
     </>
   )
 }
