@@ -5,7 +5,7 @@ const page = () => {
   return (
     <>
     <div className="flex justify-center bg-[#071013] text-white py-6 px-4">
-  <div className="border border-gray-100 p-6 shadow-md w-full max-w-4xl space-y-6">
+  <div className=" p-6 shadow-md w-full max-w-4xl space-y-6">
 
     {/* Section Title */}
     <h1 className="text-2xl font-semibold">Work History</h1>
