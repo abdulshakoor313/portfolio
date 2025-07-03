@@ -1,9 +1,12 @@
 "use client"
 import React from 'react'
+import Exp from 'Components/Exp'
+
 
 const page = () => {
   return (
     <>
+  
    <div className=' flex justify-center py-6 bg-[#071013] text-white'>
       <div className="flex flex-col lg:flex-row items-start lg:items-center gap-6 border border-gray-100 p-4 w-full max-w-5xl shadow-neutral-100">
         <div>
@@ -31,6 +34,7 @@ const page = () => {
 </div>
       </div>
     </div>
+    <Exp/>
     </>
   )
 }
