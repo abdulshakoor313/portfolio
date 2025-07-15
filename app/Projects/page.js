@@ -16,7 +16,7 @@ const page = () => {
       />
       <h1 className='text-xl text-amber-100 mb-2'>Portfolio</h1>
       <p className='text-sm text-gray-300'>
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout...
+        A clean, responsive portfolio to showcase my web development work, skills, and contact details. Designed for clarity and fast access to projects and code samples.
       </p>
       <Link href='https://portfolio.abdul-shakoor.vercel.app/' passHref>
         <button className='mt-4 px-4 py-2 bg-amber-500 text-white rounded hover:bg-amber-600'>
@@ -34,7 +34,7 @@ const page = () => {
       /> 
       <h1 className='text-xl text-amber-100 mb-2'>Book Author Website</h1>
       <p className='text-sm text-gray-300'>
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout...
+        A personal site for an independent author featuring book listings, an author bio, and blog updates — designed for easy reading and smooth navigation.
       </p>
       <Link href='https://books-app-beige.vercel.app/' passHref>
         <button className='mt-4 px-4 py-2 bg-amber-500 text-white rounded hover:bg-amber-600'>
@@ -52,7 +52,7 @@ const page = () => {
       />
       <h1 className='text-xl text-amber-100 mb-2'>Electric Serves Website</h1>
       <p className='text-sm text-gray-300'>
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout...
+        A service-focused website built for an electrician to highlight offerings, client testimonials, and booking information — fully responsive and mobile-friendly.
       </p>
       <Link href='https://electrician-rho.vercel.app/' passHref>
         <button className='mt-4 px-4 py-2 bg-amber-500 text-white rounded hover:bg-amber-600'>
