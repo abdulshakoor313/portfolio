@@ -1,5 +1,4 @@
 import { Analytics } from '@vercel/analytics/next'
-
 import Header from "@/Components/Header";
 import "./globals.css";
 
