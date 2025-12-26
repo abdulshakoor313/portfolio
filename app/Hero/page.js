@@ -19,16 +19,16 @@ const page = () => {
         </div>
         <div className="w-full grid grid-cols-2 gap-1">
 <div className=" p-4 flex items-center justify-center h-40">
-  <img src="https://img.icons8.com/?size=100&id=zRvbzAjx4VWY&format=png&color=000000" alt="HTML" className="h-full w-auto object-contain animate-pulse" />
+  <img src="/images/html.png" alt="HTML" className="h-full w-auto object-contain animate-pulse" />
 </div>
 <div className=" p-4 flex items-center justify-center h-40">
-  <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="CSS" className="h-full w-auto object-contain animate-pulse" />
+  <img src="/images/css3.png" alt="CSS" className="h-full w-auto object-contain animate-pulse" />
 </div>
 <div className=" p-4 flex items-center justify-center h-40">
-  <img src="https://img.icons8.com/?size=100&id=laVIsJnTtYoj&format=png&color=000000" alt="JavaScript" className="h-full w-auto object-contain animate-pulse" />
+  <img src="/images/java-script.png" alt="JavaScript" className="h-full w-auto object-contain animate-pulse" />
 </div>
 <div className=" p-4 flex items-center justify-center h-40">
-  <img src="https://img.icons8.com/?size=100&id=123603&format=png&color=000000" alt="React" className="h-full w-auto object-contain animate-pulse" />
+  <img src="/images/react.png" alt="React" className="h-full w-auto object-contain animate-pulse" />
 </div>
 </div>
       </div>
