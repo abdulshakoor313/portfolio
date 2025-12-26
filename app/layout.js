@@ -1,4 +1,6 @@
 import Header from "@/Components/Header";
+import { Analytics } from '@vercel/analytics/next'
+
 import "./globals.css";
 
 export const metadata = {
@@ -11,6 +13,8 @@ export default function RootLayout({ children }) {
     <html lang="en" className="bg-[#071013] text-white gap-40">
       <body>
         <Header />
+        <Analytics />
+
         {children}
       </body>
     </html>
