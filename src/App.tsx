@@ -10,7 +10,7 @@ function Layout() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/Contact" element={<Contact />} />
         </Routes>
       </main>
     </>
