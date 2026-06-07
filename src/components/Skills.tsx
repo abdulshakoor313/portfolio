@@ -1,42 +1,70 @@
-const Skills = () => {
+import React from "react";
+
+const Skills: React.FC = () => {
+  const card =
+    "bg-[#0f1f24] border border-gray-700 rounded-2xl p-5 shadow-md hover:shadow-green-900/20 transition duration-300 hover:-translate-y-1";
+
+  const title = "text-white font-semibold mb-2 text-base";
+
+  const text = "text-sm text-gray-300 leading-relaxed";
+
   return (
-    <div className="flex justify-center py-6 px-4 text-white">
-      <div className="p-6 w-full max-w-4xl space-y-6">
+    <div className="flex justify-center py-10 px-4 text-white bg-[#071013]">
+      <div className="w-full max-w-5xl space-y-8">
 
-        <h1 className="text-2xl font-semibold">
-          Technical Skills
-        </h1>
+        {/* Header */}
+        <div className="text-center space-y-2">
+          <h1 className="text-3xl sm:text-4xl font-bold">
+            Technical Skills
+          </h1>
+          <p className="text-gray-400 text-sm sm:text-base">
+            Technologies and tools I use to build modern web applications
+          </p>
+        </div>
 
-        <div className="grid sm:grid-cols-2 gap-4 text-sm text-gray-300">
+        {/* Grid */}
+        <div className="grid sm:grid-cols-2 gap-5">
 
-          <div>
-            <h2 className="text-white font-semibold mb-1">Frontend</h2>
-            <p>HTML, CSS, JavaScript, React.js, Next.js, Bootstrap</p>
+          <div className={card}>
+            <h2 className={title}>Frontend</h2>
+            <p className={text}>
+              HTML, CSS, JavaScript, React.js, Next.js, Bootstrap
+            </p>
           </div>
 
-          <div>
-            <h2 className="text-white font-semibold mb-1">UI/UX</h2>
-            <p>Responsive Design, Accessibility, Interaction Design</p>
+          <div className={card}>
+            <h2 className={title}>UI/UX</h2>
+            <p className={text}>
+              Responsive Design, Accessibility, Interaction Design
+            </p>
           </div>
 
-          <div>
-            <h2 className="text-white font-semibold mb-1">Backend</h2>
-            <p>PHP, MySQL</p>
+          <div className={card}>
+            <h2 className={title}>Backend</h2>
+            <p className={text}>
+              PHP, MySQL, REST APIs
+            </p>
           </div>
 
-          <div>
-            <h2 className="text-white font-semibold mb-1">Tools</h2>
-            <p>VS Code, Postman, cPanel, REST API</p>
+          <div className={card}>
+            <h2 className={title}>Tools</h2>
+            <p className={text}>
+              VS Code, Postman, cPanel, Git, Debugging Tools
+            </p>
           </div>
 
-          <div>
-            <h2 className="text-white font-semibold mb-1">Other Skills</h2>
-            <p>Web Hosting, Debugging, Performance Optimization</p>
+          <div className={card}>
+            <h2 className={title}>Optimization</h2>
+            <p className={text}>
+              Performance tuning, code optimization, clean architecture
+            </p>
           </div>
 
-          <div>
-            <h2 className="text-white font-semibold mb-1">Office & Data</h2>
-            <p>Excel, Google Sheets, Automation, Data Analysis</p>
+          <div className={card}>
+            <h2 className={title}>Office & Data</h2>
+            <p className={text}>
+              Excel, Google Sheets, Automation, Data handling
+            </p>
           </div>
 
         </div>
