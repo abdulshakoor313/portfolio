@@ -2,7 +2,7 @@ import React from "react";
 
 const Projects: React.FC = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-center items-start gap-8 p-6 bg-[#071013] text-white">
+    <div className="min-h-screen flex flex-col md:flex-row justify-center items-start gap-8 p-6 bg-[#071013] text-white">
 
       {/* Portfolio Card */}
       <div className="flex-1 max-w-lg rounded-lg shadow-xl text-center p-4 bg-gray-900">

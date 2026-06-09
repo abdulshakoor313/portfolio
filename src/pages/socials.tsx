@@ -1,10 +1,11 @@
 import React from "react";
+
 import { FaLinkedin, FaFacebook, FaWhatsapp } from "react-icons/fa";
 import { SiUpwork } from "react-icons/si";
 
 const SocialSidebar: React.FC = () => {
   return (
-    <div className="fixed left-4 top-1/2 -translate-y-1/2 flex flex-col gap-4 z-50">
+    <div className="fixed left-4 top-1/2 -translate-y-1/2 flex flex-col gap-4 z-50 min-h-screen">
 
       {/* LinkedIn */}
       <a
@@ -47,7 +48,9 @@ const SocialSidebar: React.FC = () => {
       </a>
 
     </div>
+  
   );
-};
 
+};
+ 
 export default SocialSidebar;

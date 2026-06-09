@@ -14,7 +14,7 @@ const Home = () => {
             <h1 className="font-bold text-4xl">Abdul Shakoor</h1>
 
             <h2 className="text-lg sm:text-xl">
-              Front-end Web Developer
+              Front-end | React  Developer
             </h2>
 
             <p className="text-justify p-4 text-sm sm:text-base">

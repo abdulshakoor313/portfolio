@@ -8,8 +8,7 @@ const WorkHistory: React.FC = () => {
 
   const subText = "text-sm text-gray-400";
 
-  const listStyle =
-    "list-disc list-inside text-sm text-gray-300 mt-2 space-y-1";
+  const listStyle = " list-inside text-sm text-gray-300 mt-2 space-y-1";
 
   return (
     <div className="flex justify-center bg-[#071013] text-white py-10 px-4">
@@ -41,6 +40,16 @@ const WorkHistory: React.FC = () => {
             </ul>
           </div>
 
+            {/* Amazon */}
+          <div className={cardStyle}>
+            <h2 className={titleStyle}>Book Listing System On Upwork</h2>
+            <p className={subText}>HTML, CSS </p>
+
+            <h3 className="text-sm text-gray-300 mt-2">
+             	Designed Amazon KDP, compliant HTML & CSS for book product listings
+            </h3>
+          </div>
+
           {/* E-commerce */}
           <div className={cardStyle}>
             <h2 className={titleStyle}>E-commerce Website</h2>
@@ -64,15 +73,7 @@ const WorkHistory: React.FC = () => {
             </ul>
           </div>
 
-          {/* Amazon */}
-          <div className={cardStyle}>
-            <h2 className={titleStyle}>Book Listing System</h2>
-            <p className={subText}>HTML, CSS</p>
-
-            <p className="text-sm text-gray-300 mt-2">
-              Developed front-end layout for book listings used in publishing workflows.
-            </p>
-          </div>
+        
 
           {/* Email Tool */}
           <div className={cardStyle}>
