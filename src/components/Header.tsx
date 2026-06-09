@@ -18,7 +18,6 @@ const Header = () => {
           <nav className="hidden md:flex space-x-6 text-white font-medium">
             <Link to="/" className="hover:text-blue-500">Home</Link>
               <Link to="/projects" className="hover:text-blue-500">Projects</Link>
-            <Link to="/socials" className="hover:text-blue-500">Socials</Link>
             <Link to="/contact" className="hover:text-blue-500">Contact</Link>
           </nav>
 
@@ -39,7 +38,6 @@ const Header = () => {
           <nav className="flex flex-col px-4 py-3 space-y-3 text-white">
             <Link to="/" className="hover:text-blue-500">Home</Link>
             <Link to="/projects" className="hover:text-blue-500">Projects</Link>
-            <Link to="/socials" className="hover:text-blue-500">Socials</Link>
             <Link to="/contact" className="hover:text-blue-500">Contact</Link>
           </nav>
         </div>
