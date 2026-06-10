@@ -11,7 +11,8 @@ const Header = () => {
 
           {/* Logo */}
           <div className="text-xl font-bold text-white">
-            My Portfolio
+            <Link to="/" className="hover:text-blue-500"> My Portfolio</Link>
+          
           </div>
 
           {/* Desktop Nav */}

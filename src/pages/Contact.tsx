@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaLinkedin, FaFacebook, FaWhatsapp } from "react-icons/fa";
 import { SiUpwork } from "react-icons/si";
 
-/* ---------------- SOCIAL SIDEBAR ---------------- */
+/* ---------------- SOCIAL DATA ---------------- */
 
 const socials = [
   {
@@ -31,60 +31,95 @@ const socials = [
   },
 ];
 
+/* ---------------- SOCIAL SIDEBAR ---------------- */
+
 const SocialSidebar: React.FC = () => {
   return (
-    <div className="hidden sm:flex fixed left-4 top-0 h-full items-center z-50">
-      <div
-        className="
-          flex flex-col items-center justify-center gap-6
-          py-8 px-4
-          rounded-full
-          bg-white/5 backdrop-blur-xl
-          border border-white/10
-          shadow-[0_10px_40px_rgba(0,0,0,0.35)]
-          animate-float
-        "
-      >
-        {socials.map(({ name, href, icon: Icon, color }) => (
-          <a
-            key={name}
-            href={href}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={name}
-            className="
-              group relative
-              w-14 h-14
-              flex items-center justify-center
-              rounded-full
-              transition-all duration-300
-              hover:bg-white/10
-              hover:scale-125
-              hover:shadow-lg
-            "
-          >
-            <Icon
-              className={`text-3xl ${color} transition-transform duration-300 group-hover:rotate-6`}
-            />
+    <div className="z-50">
 
-            {/* Tooltip */}
-            <span
+      {/* 🖥 DESKTOP SIDEBAR */}
+      <div className="hidden sm:flex fixed left-4 top-0 h-full items-center">
+        <div
+          className="
+            flex flex-col items-center justify-center gap-6
+            py-8 px-4
+            rounded-full
+            bg-white/5 backdrop-blur-xl
+            border border-white/10
+            shadow-[0_10px_40px_rgba(0,0,0,0.35)]
+            animate-float
+          "
+        >
+          {socials.map(({ name, href, icon: Icon, color }) => (
+            <a
+              key={name}
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={name}
               className="
-                absolute left-16
-                px-3 py-1 text-xs
-                bg-black/80 text-white
-                rounded-md
-                opacity-0 group-hover:opacity-100
-                translate-x-2 group-hover:translate-x-0
+                group relative
+                w-14 h-14
+                flex items-center justify-center
+                rounded-full
                 transition-all duration-300
-                whitespace-nowrap
+                hover:bg-white/10
+                hover:scale-125
               "
             >
-              {name}
-            </span>
-          </a>
-        ))}
+              <Icon className={`text-3xl ${color}`} />
+
+              {/* Tooltip */}
+              <span
+                className="
+                  absolute left-16
+                  px-3 py-1 text-xs
+                  bg-black/80 text-white
+                  rounded-md
+                  opacity-0 group-hover:opacity-100
+                  translate-x-2 group-hover:translate-x-0
+                  transition-all duration-300
+                  whitespace-nowrap
+                "
+              >
+                {name}
+              </span>
+            </a>
+          ))}
+        </div>
       </div>
+
+      {/* 📱 MOBILE BOTTOM DOCK */}
+      <div className="sm:hidden fixed bottom-4 left-1/2 -translate-x-1/2 z-50">
+        <div
+          className="
+            flex items-center gap-5
+            bg-white/5 backdrop-blur-xl
+            border border-white/10
+            px-5 py-3
+            rounded-full
+            shadow-lg
+          "
+        >
+          {socials.map(({ name, href, icon: Icon, color }) => (
+            <a
+              key={name}
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+                w-10 h-10
+                flex items-center justify-center
+                rounded-full
+                hover:scale-110 transition
+              "
+            >
+              <Icon className={`text-2xl ${color}`} />
+            </a>
+          ))}
+        </div>
+      </div>
+
     </div>
   );
 };
@@ -130,7 +165,7 @@ const Contact: React.FC = () => {
   return (
     <div className="min-h-screen bg-[#071013] text-white px-4 py-14 relative overflow-hidden">
 
-      {/* Sidebar */}
+      {/* SOCIAL SIDEBAR */}
       <SocialSidebar />
 
       {/* HEADER */}
@@ -154,11 +189,11 @@ const Contact: React.FC = () => {
 
           <p className="text-gray-400 leading-relaxed">
             Have a project idea, freelance work, or collaboration in mind?
-            Feel free to send a message or contact me directly on WhatsApp.
+            Let’s connect and build something great.
           </p>
 
           <a
-            href="https://wa.me/923023001606?text=Hi%20Abdul%20Shakoor%2C%20I%20want%20to%20talk%20about%20a%20project"
+            href="https://wa.me/923023001606?text=Hi%20Abdul%20Shakoor"
             target="_blank"
             rel="noopener noreferrer"
             className="
@@ -173,7 +208,7 @@ const Contact: React.FC = () => {
           </a>
         </div>
 
-        {/* RIGHT FORM */}
+        {/* RIGHT SIDE - FORM */}
         <form
           onSubmit={handleSubmit}
           className="
@@ -257,17 +292,17 @@ const Contact: React.FC = () => {
         </form>
       </div>
 
-      {/* FLOAT ANIMATION (Tailwind custom class) */}
+      {/* FLOAT ANIMATION */}
       <style>{`
         @keyframes float {
           0%, 100% { transform: translateY(0px); }
           50% { transform: translateY(-8px); }
         }
-
         .animate-float {
           animation: float 6s ease-in-out infinite;
         }
       `}</style>
+
     </div>
   );
 };
