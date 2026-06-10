@@ -41,6 +41,43 @@ export default function App() {
 
 
 
+Please find my CV, portfolio and other links attached for your review.
+1.	Linked in Profile
+https://www.linkedin.com/in/web-developer-abdul-shakoor/ 
+2.	 Portfolio
+https://portfolio-ab-shakoor-313.vercel.app/
+3.	Github Profile.
+https://github.com/abdulshakoor313
+4.	Upwork Profile.
+https://www.upwork.com/freelancers/~018b0769d2e1106355?mp_source=share 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

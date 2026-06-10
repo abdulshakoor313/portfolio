@@ -10,12 +10,14 @@ const socials = [
     href: "https://www.linkedin.com/in/web-developer-abdul-shakoor/",
     icon: FaLinkedin,
     color: "text-blue-500",
+    highlight: true,
   },
   {
     name: "Upwork",
     href: "https://www.upwork.com/freelancers/~018b0769d2e1106355?mp_source=share",
     icon: SiUpwork,
     color: "text-green-500",
+    highlight: true,
   },
   {
     name: "Facebook",
@@ -50,14 +52,14 @@ const SocialSidebar: React.FC = () => {
             animate-float
           "
         >
-          {socials.map(({ name, href, icon: Icon, color }) => (
+          {socials.map(({ name, href, icon: Icon, color, highlight }) => (
             <a
               key={name}
               href={href}
               target="_blank"
               rel="noopener noreferrer"
               aria-label={name}
-              className="
+              className={`
                 group relative
                 w-14 h-14
                 flex items-center justify-center
@@ -65,7 +67,10 @@ const SocialSidebar: React.FC = () => {
                 transition-all duration-300
                 hover:bg-white/10
                 hover:scale-125
-              "
+                ${highlight
+                  ? "ring-2 ring-green-400 shadow-[0_0_20px_rgba(34,197,94,0.5)]"
+                  : ""}
+              `}
             >
               <Icon className={`text-3xl ${color}`} />
 
@@ -101,18 +106,21 @@ const SocialSidebar: React.FC = () => {
             shadow-lg
           "
         >
-          {socials.map(({ name, href, icon: Icon, color }) => (
+          {socials.map(({ name, href, icon: Icon, color, highlight }) => (
             <a
               key={name}
               href={href}
               target="_blank"
               rel="noopener noreferrer"
-              className="
+              className={`
                 w-10 h-10
                 flex items-center justify-center
                 rounded-full
                 hover:scale-110 transition
-              "
+                ${highlight
+                  ? "ring-2 ring-green-400 shadow-[0_0_15px_rgba(34,197,94,0.4)]"
+                  : ""}
+              `}
             >
               <Icon className={`text-2xl ${color}`} />
             </a>
