@@ -29,3 +29,10 @@ Designed for high performance, clean UI, and professional developer branding.
 ---
 
 ## 📁 Project Structure
+src/
+├── components/
+├── pages/
+├── assets/
+├── App.tsx
+├── main.tsx
+
