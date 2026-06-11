@@ -27,7 +27,7 @@ const WorkHistory: React.FC = () => {
 
           {/* Web Programmer */}
           <div className={cardStyle}>
-            <h2 className={titleStyle}>Web Programmer</h2>
+            <h2 className={titleStyle}>Web Trainer</h2>
             <p className="text-sm text-gray-300">
               Aptech Computer Education, Jamshoro
             </p>

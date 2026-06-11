@@ -1,31 +1,66 @@
-# 🚀 React Portfolio (Vite + TypeScript)
+# 🚀 Abdul Shakoor – Frontend Developer Portfolio
 
-A modern, fast, and responsive personal portfolio built using **React**, **TypeScript**, and **Vite**.  
-Designed for high performance, clean UI, and professional developer branding.
-
----
-
-## ⚡ Tech Stack
-
-- ⚛️ React 18
-- ⚡ Vite (Lightning fast build tool)
-- 🟦 TypeScript
-- 🎨 Tailwind CSS (if used)
-- 🧩 React Icons
-- 🧠 ESLint (code quality & consistency)
+Welcome to my official developer portfolio repository.  
+I am a passionate **Frontend Developer (React + TypeScript + Vite)** focused on building modern, responsive, and high-performance web applications.
 
 ---
 
-## ✨ Features
+## 👨‍💻 About Me
 
-- 📱 Fully responsive design (mobile + desktop)
-- ⚡ Fast development with Vite HMR
-- 🎯 Modular and reusable components
-- 💼 Integrated social profiles (LinkedIn, Upwork, WhatsApp, Facebook)
-- 🌐 Single Page Application (SPA)
-- 🔥 Smooth UI with modern styling
-- 🚀 Deployment ready (Vercel / Netlify)
+I specialize in:
+- ⚛️ React.js development
+- 🟦 TypeScript applications
+- ⚡ Vite-powered fast frontend apps
+- 🎨 Modern UI/UX design
+- 🌐 Responsive web development
+
+My goal is to build clean, scalable, and impactful digital experiences.
 
 ---
 
-## 📁 Project Structure
+## 🔗 Important Links
+
+Here are my professional profiles and portfolio:
+
+- 💼 **Upwork Profile**  
+  https://www.upwork.com/freelancers/~018b0769d2e1106355?mp_source=share  
+
+- 🧑‍💻 **GitHub Profile**  
+  https://github.com/abdulshakoor313/  
+
+- 🌐 **Portfolio Website**  
+  https://portfolio-ab-shakoor-313.vercel.app/  
+
+- 💼 **LinkedIn Profile**  
+  https://www.linkedin.com/in/web-developer-abdul-shakoor/  
+
+---
+
+## 🛠 Tech Stack
+
+- React.js  
+- TypeScript  
+- Vite  
+- Tailwind CSS  
+- JavaScript (ES6+)  
+- Git & GitHub  
+
+---
+
+## 📂 Project Overview
+
+This repository contains my personal portfolio built with:
+
+- ⚡ Fast Vite build system  
+- 🧩 Modular React components  
+- 📱 Fully responsive design  
+- 🚀 Optimized deployment (Vercel)
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/abdulshakoor313
