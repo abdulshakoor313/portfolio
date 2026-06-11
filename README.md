@@ -58,9 +58,4 @@ This repository contains my personal portfolio built with:
 
 ---
 
-## 🚀 Getting Started
-
-Clone the repository:
-
-```bash
-git clone https://github.com/abdulshakoor313
+## 📁 Project Structure
